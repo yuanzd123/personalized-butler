@@ -1,0 +1,1469 @@
+{
+  "guests": [
+    {
+      "guest_id": "VIP-001",
+      "name": "David Chen",
+      "loyalty_tier": "Grazie Diamond",
+      "loyalty_number": "GRZ-8834201",
+      "email": "d.chen@example.com",
+      "phone": "+1-415-555-0188",
+      "nationality": "American",
+      "language": "English, Mandarin",
+      "date_of_birth": "1978-06-15",
+      "spouse": "Lisa Chen",
+      "spouse_birthday": "1980-03-22",
+      "arriving_tomorrow": true,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Venetian Suite",
+          "floor_preference": "High floor (30+)",
+          "bed_type": "King",
+          "special_requests": ["Extra pillows (4 down)", "Away from elevator", "Minibar stocked with Yamazaki 18", "Late checkout 2pm"]
+        },
+        "allergies": ["Shellfish"],
+        "vip_notes": "High roller - handle with utmost discretion. Always greet by name."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-15",
+          "agent": "Maria G.",
+          "note": "Mr. Chen mentioned his wife Lisa's birthday is March 22. He asked about private dining options at Tao for a surprise celebration. Prefers quiet corner tables always."
+        },
+        {
+          "date": "2025-11-02",
+          "agent": "James T.",
+          "note": "Guest complained about slow room service on 35th floor during last stay - took 55 min for breakfast order. Escalated to F&B manager. Offered comp dinner at CUT. He was satisfied with resolution."
+        },
+        {
+          "date": "2025-09-18",
+          "agent": "Maria G.",
+          "note": "Mr. Chen is allergic to shellfish - CRITICAL. Almost had an incident at Tao when a dish contained shrimp paste. Kitchen was notified. Please flag on all future F&B reservations."
+        },
+        {
+          "date": "2025-08-05",
+          "agent": "Robert L.",
+          "note": "High roller - avg $50k/trip at baccarat tables. Prefers Table 8 in the high-limit room. Comp level: full RFB. Personal dealer request: Tommy Liu when available."
+        },
+        {
+          "date": "2025-06-20",
+          "agent": "Maria G.",
+          "note": "Mr. Chen collects fine Japanese whisky. Was very impressed when we had Hibiki 30 available. Consider sourcing rare Japanese whisky for his visits."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-14",
+          "restaurant": "TAO Asian Bistro",
+          "party_size": 2,
+          "items": ["Wagyu Beef Tataki", "Peking Duck", "Lobster Pad Thai (modified - no shellfish)", "Crispy Rice Tuna", "Yamazaki 18 (3)", "Sake Flight - Premium"],
+          "total": 1450.00,
+          "tip_pct": 22,
+          "notes": "Corner booth requested. Celebrated deal closing."
+        },
+        {
+          "date": "2025-12-13",
+          "restaurant": "CUT by Wolfgang Puck",
+          "party_size": 4,
+          "items": ["Japanese A5 Wagyu (2)", "Bone-in Ribeye", "Caesar Salad (2)", "Truffle Mac & Cheese", "Opus One 2019", "Yamazaki 18 (2)"],
+          "total": 2800.00,
+          "tip_pct": 20,
+          "notes": "Business dinner with clients. Requested sommelier pairing."
+        },
+        {
+          "date": "2025-11-01",
+          "restaurant": "TAO Asian Bistro",
+          "party_size": 2,
+          "items": ["Satay Chicken Skewers", "Wagyu Beef Dumplings", "Chilean Sea Bass", "Hakushu 12 (2)", "Green Tea Ice Cream"],
+          "total": 980.00,
+          "tip_pct": 20,
+          "notes": "Dinner with wife Lisa. Quiet evening."
+        },
+        {
+          "date": "2025-09-17",
+          "restaurant": "CUT by Wolfgang Puck",
+          "party_size": 6,
+          "items": ["Japanese A5 Wagyu (3)", "Australian Wagyu (2)", "Dover Sole", "Chateau Margaux 2015", "Yamazaki 18 (4)", "Creme Brulee (3)"],
+          "total": 4200.00,
+          "tip_pct": 22,
+          "notes": "Large business dinner. Private dining room requested."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-12-12",
+          "check_out": "2025-12-16",
+          "room_type": "Venetian Suite",
+          "room_number": "3512",
+          "rate": "Comp",
+          "special_requests": ["Extra down pillows", "Yamazaki 18 in minibar", "Late checkout"],
+          "satisfaction": 4,
+          "issues": ["Slow room service complaint"]
+        },
+        {
+          "check_in": "2025-10-30",
+          "check_out": "2025-11-03",
+          "room_type": "Venetian Suite",
+          "room_number": "3805",
+          "rate": "Comp",
+          "special_requests": ["Extra down pillows", "Away from elevator", "Fruit basket on arrival"],
+          "satisfaction": 5,
+          "issues": []
+        },
+        {
+          "check_in": "2025-09-15",
+          "check_out": "2025-09-19",
+          "room_type": "Venetian Suite",
+          "room_number": "3602",
+          "rate": "Comp",
+          "special_requests": ["Extra down pillows", "Japanese whisky selection"],
+          "satisfaction": 4,
+          "issues": ["Shellfish allergy incident at Tao"]
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 50000,
+        "preferred_game": "Baccarat",
+        "preferred_table": "Table 8, High Limit Room",
+        "visits_last_12_months": 6
+      }
+    },
+    {
+      "guest_id": "VIP-002",
+      "name": "Sarah Kim",
+      "loyalty_tier": "Grazie Platinum",
+      "loyalty_number": "GRZ-5521087",
+      "email": "s.kim@example.com",
+      "phone": "+1-213-555-0342",
+      "nationality": "Korean-American",
+      "language": "English, Korean",
+      "date_of_birth": "1985-11-08",
+      "spouse": null,
+      "spouse_birthday": null,
+      "arriving_tomorrow": true,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Palazzo Suite",
+          "floor_preference": "Mid floor (15-25)",
+          "bed_type": "King",
+          "special_requests": ["Pet-friendly room", "Air purifier", "Hypoallergenic bedding", "Vegan welcome amenity"]
+        },
+        "allergies": ["None - strict vegan diet"],
+        "vip_notes": "Travels with toy poodle Mochi. Wellness-oriented. Korean-speaking staff preferred."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-01",
+          "agent": "Jennifer P.",
+          "note": "Ms. Kim asked about Canyon Ranch spa packages - specifically interested in meditation retreats and Korean skincare treatments. She wants to book a full-day spa experience next visit."
+        },
+        {
+          "date": "2025-10-15",
+          "agent": "Kevin M.",
+          "note": "Ms. Kim is a strict vegan. Very particular about ingredients. Grand Lux Cafe has her custom menu on file. Chef Park knows her preferences well."
+        },
+        {
+          "date": "2025-09-22",
+          "agent": "Jennifer P.",
+          "note": "Guest travels with toy poodle Mochi. Needs pet amenities: dog bed, water bowl, puppy pads. Ms. Kim tips housekeeping extra for pet cleanup."
+        },
+        {
+          "date": "2025-08-10",
+          "agent": "Kevin M.",
+          "note": "Ms. Kim prefers Korean-speaking staff. Assign Jenny or Soo-jin at front desk if possible."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-11-30",
+          "restaurant": "Grand Lux Cafe",
+          "party_size": 2,
+          "items": ["Custom Vegan Buddha Bowl", "Avocado Toast (vegan)", "Fresh Pressed Green Juice", "Organic Chamomile Tea", "Vegan Chocolate Cake"],
+          "total": 120.00,
+          "tip_pct": 25,
+          "notes": "Custom vegan menu. Chef Park prepared special dishes."
+        },
+        {
+          "date": "2025-10-14",
+          "restaurant": "Grand Lux Cafe",
+          "party_size": 3,
+          "items": ["Vegan Spring Rolls", "Impossible Burger (lettuce wrap)", "Vegan Pad Thai", "Organic Sauvignon Blanc (2)", "Coconut Sorbet"],
+          "total": 210.00,
+          "tip_pct": 20,
+          "notes": "Dinner with friends. All dishes prepared vegan."
+        },
+        {
+          "date": "2025-09-21",
+          "restaurant": "Canyon Ranch Cafe",
+          "party_size": 1,
+          "items": ["Acai Bowl", "Matcha Latte (oat milk)", "Chia Pudding"],
+          "total": 55.00,
+          "tip_pct": 25,
+          "notes": "Post-spa light meal. Very pleased with organic options."
+        },
+        {
+          "date": "2025-08-09",
+          "restaurant": "Grand Lux Cafe",
+          "party_size": 2,
+          "items": ["Custom Vegan Tasting Menu (5 courses)", "Organic Napa Chardonnay (bottle)", "Espresso"],
+          "total": 380.00,
+          "tip_pct": 22,
+          "notes": "Special tasting menu by Chef Park. Guest took photos for Instagram."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-11-28",
+          "check_out": "2025-12-02",
+          "room_type": "Palazzo Suite",
+          "room_number": "1812",
+          "rate": 650.00,
+          "special_requests": ["Pet amenities for Mochi", "Air purifier", "Vegan welcome basket"],
+          "satisfaction": 5,
+          "issues": []
+        },
+        {
+          "check_in": "2025-10-12",
+          "check_out": "2025-10-16",
+          "room_type": "Palazzo Suite",
+          "room_number": "2005",
+          "rate": 650.00,
+          "special_requests": ["Pet amenities", "Hypoallergenic pillows", "Air purifier"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 5000,
+        "preferred_game": "Slots",
+        "preferred_table": null,
+        "visits_last_12_months": 4
+      }
+    },
+    {
+      "guest_id": "VIP-003",
+      "name": "James Rodriguez",
+      "loyalty_tier": "Grazie Diamond Elite",
+      "loyalty_number": "GRZ-1100045",
+      "email": "j.rodriguez@example.com",
+      "phone": "+1-305-555-0776",
+      "nationality": "American",
+      "language": "English, Spanish",
+      "date_of_birth": "1970-04-12",
+      "spouse": "Maria Rodriguez",
+      "spouse_birthday": "1972-08-30",
+      "arriving_tomorrow": true,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Chairman Suite",
+          "floor_preference": "Highest available",
+          "bed_type": "King",
+          "special_requests": ["Humidor stocked with Cohiba Behike", "3 dozen red roses for Maria", "Bose speaker system", "Late checkout 4pm", "Nespresso machine"]
+        },
+        "allergies": ["None"],
+        "vip_notes": "Top-tier. 25th wedding anniversary next visit. Cigar aficionado. Very generous tipper."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-20",
+          "agent": "Carlos R.",
+          "note": "Mr. Rodriguez planning 25th wedding anniversary trip - wants something unforgettable. Wife Maria loves red roses and Chanel No.5. He mentioned a private gondola ride at The Venetian. Make it happen."
+        },
+        {
+          "date": "2025-11-10",
+          "agent": "Lisa M.",
+          "note": "Serious cigar aficionado. Spends 2-3 hours daily in cigar lounge. Prefers Cohiba Behike and Padron 1964. Mentioned wanting a private cigar tasting event with rare Cuban selections."
+        },
+        {
+          "date": "2025-10-01",
+          "agent": "Carlos R.",
+          "note": "Plays high-limit slots exclusively - Wheel of Fortune $100 machines. Avg session 4-6 hours. Enjoys Macallan 25 neat while playing. Comp level: full RFB + limo."
+        },
+        {
+          "date": "2025-07-20",
+          "agent": "Carlos R.",
+          "note": "Mr. Rodriguez received a competing offer from Wynn. We retained him by upgrading to Chairman Suite and arranging private cigar event. He values personal touches above all."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-19",
+          "restaurant": "Delmonico Steakhouse",
+          "party_size": 2,
+          "items": ["Oysters Rockefeller", "Bone-in Ribeye 24oz", "Filet Mignon 12oz", "Lobster Mac & Cheese", "Opus One 2018", "Macallan 25 (3)", "Tiramisu", "Creme Brulee"],
+          "total": 2200.00,
+          "tip_pct": 30,
+          "notes": "Anniversary dinner with wife. Private corner booth. Sommelier selected wine."
+        },
+        {
+          "date": "2025-11-09",
+          "restaurant": "Delmonico Steakhouse",
+          "party_size": 4,
+          "items": ["Porterhouse for Two", "Veal Chop", "Chilean Sea Bass", "Chateau Margaux 2010", "Opus One 2019", "Macallan 25 (4)"],
+          "total": 3800.00,
+          "tip_pct": 25,
+          "notes": "Business dinner. Post-dinner cigars in lounge. Exceptional evening."
+        },
+        {
+          "date": "2025-10-01",
+          "restaurant": "Bouchon Bistro",
+          "party_size": 2,
+          "items": ["Smoked Salmon Tartine", "Eggs Florentine", "French Press Coffee", "Mimosa (2)"],
+          "total": 165.00,
+          "tip_pct": 30,
+          "notes": "Leisurely breakfast with Maria."
+        },
+        {
+          "date": "2025-09-30",
+          "restaurant": "Delmonico Steakhouse",
+          "party_size": 2,
+          "items": ["Tomahawk Ribeye 36oz", "Filet Mignon", "Bordeaux Grand Cru 2012", "Macallan 25 (2)", "Chocolate Souffle"],
+          "total": 1950.00,
+          "tip_pct": 28,
+          "notes": "Date night. Staff sang belated birthday for Maria."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-12-17",
+          "check_out": "2025-12-21",
+          "room_type": "Chairman Suite",
+          "room_number": "PH-4501",
+          "rate": "Comp",
+          "special_requests": ["Humidor with Cohiba Behike", "3 dozen red roses", "Dom Perignon on arrival", "Couples spa booking"],
+          "satisfaction": 5,
+          "issues": []
+        },
+        {
+          "check_in": "2025-11-08",
+          "check_out": "2025-11-12",
+          "room_type": "Chairman Suite",
+          "room_number": "PH-4502",
+          "rate": "Comp",
+          "special_requests": ["Humidor", "Bose speaker", "Late checkout 4pm", "Limo airport transfer"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 120000,
+        "preferred_game": "High-Limit Slots",
+        "preferred_table": "Wheel of Fortune $100 machines",
+        "visits_last_12_months": 8
+      }
+    },
+    {
+      "guest_id": "VIP-004",
+      "name": "Michael Torres",
+      "loyalty_tier": "Grazie Diamond",
+      "loyalty_number": "GRZ-2290413",
+      "email": "m.torres@example.com",
+      "phone": "+1-650-555-0291",
+      "nationality": "American",
+      "language": "English",
+      "date_of_birth": "1975-09-03",
+      "spouse": null,
+      "spouse_birthday": null,
+      "arriving_tomorrow": false,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Venezia Suite",
+          "floor_preference": "High floor with Strip view",
+          "bed_type": "King",
+          "special_requests": ["Ergonomic work chair", "Standing desk setup", "Multiple monitors if possible", "Cold brew coffee on arrival", "Blackout curtains"]
+        },
+        "allergies": ["None"],
+        "vip_notes": "Tech CEO - often works from hotel. Keeps odd hours. Very private, no public recognition."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-11-20",
+          "agent": "Patrick H.",
+          "note": "Mr. Torres requested a full ergonomic workstation setup. He runs a tech company and was on Zoom calls all morning. Make sure the WiFi in his suite is on the dedicated business line."
+        },
+        {
+          "date": "2025-10-08",
+          "agent": "Amy W.",
+          "note": "Mr. Torres is a serious poker player - plays in the high-stakes private room Wednesday and Thursday nights. Avg session 5+ hours. Mentioned he prefers heads-up games."
+        },
+        {
+          "date": "2025-09-15",
+          "agent": "Patrick H.",
+          "note": "Guest is a Napa Valley wine collector. He mentioned he has a 500-bottle cellar at home. Very knowledgeable - do NOT try to oversell basic wines. Go straight to Grand Cru or rare Napa offerings."
+        },
+        {
+          "date": "2025-08-01",
+          "agent": "Amy W.",
+          "note": "Mr. Torres travels with a small team of 2-3 assistants. Book adjacent rooms. He prefers to dine alone or with his team - does not want to be recognized by other guests."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-11-19",
+          "restaurant": "CUT by Wolfgang Puck",
+          "party_size": 3,
+          "items": ["Japanese A5 Wagyu (3)", "Bone Marrow Flan", "Truffled Broccolini", "Screaming Eagle 2018", "Pappy Van Winkle 23yr (2)", "Sticky Toffee Pudding"],
+          "total": 5200.00,
+          "tip_pct": 25,
+          "notes": "Team dinner. Ordered Screaming Eagle - most expensive bottle on list."
+        },
+        {
+          "date": "2025-10-07",
+          "restaurant": "Bouchon Bistro",
+          "party_size": 1,
+          "items": ["Cold Brew Coffee", "Avocado Toast", "Smoked Salmon Bagel"],
+          "total": 65.00,
+          "tip_pct": 40,
+          "notes": "Solo working breakfast. On laptop entire time. Tipped 40%."
+        },
+        {
+          "date": "2025-09-14",
+          "restaurant": "CUT by Wolfgang Puck",
+          "party_size": 1,
+          "items": ["Dry-Aged Ribeye 35-Day", "Grilled Asparagus", "Opus One 2019 (bottle)", "Pappy Van Winkle 20yr"],
+          "total": 1800.00,
+          "tip_pct": 30,
+          "notes": "Solo dinner. Very discerning palate. Praised the wagyu preparation."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-11-18",
+          "check_out": "2025-11-22",
+          "room_type": "Venezia Suite",
+          "room_number": "4201",
+          "rate": "Comp",
+          "special_requests": ["Ergonomic workstation", "Business line WiFi", "Adjacent rooms for team", "Cold brew on arrival"],
+          "satisfaction": 5,
+          "issues": []
+        },
+        {
+          "check_in": "2025-09-12",
+          "check_out": "2025-09-16",
+          "room_type": "Venezia Suite",
+          "room_number": "3901",
+          "rate": "Comp",
+          "special_requests": ["Workstation setup", "Blackout curtains"],
+          "satisfaction": 4,
+          "issues": ["WiFi speed inadequate for video calls - resolved with IT"]
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 80000,
+        "preferred_game": "Poker - High Stakes",
+        "preferred_table": "Private high-stakes room",
+        "visits_last_12_months": 5
+      }
+    },
+    {
+      "guest_id": "VIP-005",
+      "name": "Natasha Ivanova",
+      "loyalty_tier": "Grazie Gold",
+      "loyalty_number": "GRZ-7712934",
+      "email": "n.ivanova@example.com",
+      "phone": "+7-495-555-0184",
+      "nationality": "Russian",
+      "language": "Russian, English",
+      "date_of_birth": "1990-02-14",
+      "spouse": null,
+      "spouse_birthday": null,
+      "arriving_tomorrow": false,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Palazzo Suite",
+          "floor_preference": "High floor, good selfie lighting",
+          "bed_type": "King",
+          "special_requests": ["Chilled Dom Perignon Rose on arrival", "Fresh flowers (white orchids)", "Full vanity lighting", "Extra large bath towels", "Pilates mat in room"]
+        },
+        "allergies": ["Gluten sensitivity (not celiac)"],
+        "vip_notes": "Social media influencer - 4.2M Instagram followers. Content creator. Any comp'd items she photographs = free marketing. Handle PR carefully."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-05",
+          "agent": "Sophie L.",
+          "note": "Ms. Ivanova posted 3 Instagram Stories about her last stay - reached est. 2M people. Extremely valuable for hotel visibility. Marketing team wants to offer a 'content creator package.'"
+        },
+        {
+          "date": "2025-11-01",
+          "agent": "Sophie L.",
+          "note": "Guest has gluten sensitivity - not severe celiac but prefers gluten-free options. She researches restaurant menus in advance. Always confirm GF modifications available."
+        },
+        {
+          "date": "2025-10-15",
+          "agent": "Marcus W.",
+          "note": "Ms. Ivanova is a champagne enthusiast. Specifically prefers Dom Perignon Rose and Armand de Brignac. Knows her champagnes - don't offer anything below prestige cuvee."
+        },
+        {
+          "date": "2025-09-20",
+          "agent": "Sophie L.",
+          "note": "Spa is very important to this guest. She spent $2,800 at Canyon Ranch last visit. Prefers champagne in the treatment room. Book preemptively - she always adds on services."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-04",
+          "restaurant": "Enoteca San Marco",
+          "party_size": 3,
+          "items": ["Burrata (GF)", "Grilled Branzino", "Risotto Nero (GF)", "Armand de Brignac Rose (bottle)", "Limoncello Sorbet"],
+          "total": 980.00,
+          "tip_pct": 18,
+          "notes": "Photographed everything. Tagged hotel 4 times on Instagram."
+        },
+        {
+          "date": "2025-10-14",
+          "restaurant": "TAO Asian Bistro",
+          "party_size": 4,
+          "items": ["Edamame", "Tuna Tartare (GF)", "Wok-Seared Sea Bass", "Dom Perignon Rose (bottle)", "Matcha Ice Cream"],
+          "total": 1200.00,
+          "tip_pct": 15,
+          "notes": "Girls' dinner. Instagram reel filmed - 480K views."
+        },
+        {
+          "date": "2025-09-19",
+          "restaurant": "Bouchon Bistro",
+          "party_size": 2,
+          "items": ["Smoked Salmon (GF prep)", "Fresh Berries", "Champagne (glass) x3"],
+          "total": 145.00,
+          "tip_pct": 20,
+          "notes": "Late brunch. Very photogenic setting per guest."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-12-03",
+          "check_out": "2025-12-06",
+          "room_type": "Palazzo Suite",
+          "room_number": "2205",
+          "rate": 750.00,
+          "special_requests": ["Dom Perignon Rose on arrival", "White orchids", "Ring light (provided by guest)"],
+          "satisfaction": 5,
+          "issues": []
+        },
+        {
+          "check_in": "2025-10-12",
+          "check_out": "2025-10-15",
+          "room_type": "Palazzo Suite",
+          "room_number": "2410",
+          "rate": 750.00,
+          "special_requests": ["Champagne on arrival", "Fresh flowers", "Pilates mat"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 3000,
+        "preferred_game": "Roulette (social, low stakes)",
+        "preferred_table": null,
+        "visits_last_12_months": 4
+      }
+    },
+    {
+      "guest_id": "VIP-006",
+      "name": "Abdullah Al-Rashid",
+      "loyalty_tier": "Grazie Diamond Elite",
+      "loyalty_number": "GRZ-0098234",
+      "email": "a.alrashid@example.com",
+      "phone": "+966-11-555-0445",
+      "nationality": "Saudi Arabian",
+      "language": "Arabic, English",
+      "date_of_birth": "1968-05-20",
+      "spouse": "Fatima Al-Rashid",
+      "spouse_birthday": "1975-03-10",
+      "arriving_tomorrow": true,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Chairman Suite",
+          "floor_preference": "Highest available",
+          "bed_type": "Two Kings (he and wife separate preferences)",
+          "special_requests": ["Prayer mat and Qibla direction card", "Halal food items in minibar only", "Remove all alcohol from minibar", "Fresh dates on arrival", "Arabic coffee service"]
+        },
+        "allergies": ["None - but strictly halal only, no pork, no alcohol"],
+        "vip_notes": "Royal family adjacent. Brings entourage of 6-8. Books 3 suites minimum. Private arrival preferred. Do NOT offer alcohol in any context."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-10",
+          "agent": "Hassan A.",
+          "note": "Mr. Al-Rashid requires fully halal dining. Please coordinate with CUT and Delmonico in advance - both can source halal beef with 48hr notice. Verify with kitchen each time, no exceptions."
+        },
+        {
+          "date": "2025-11-05",
+          "agent": "Hassan A.",
+          "note": "Guest travels with security detail (2 men) and personal assistant. Reserve 2 additional standard rooms for staff. Security requires advance property walkthrough."
+        },
+        {
+          "date": "2025-10-20",
+          "agent": "Sophie L.",
+          "note": "Mr. Al-Rashid is interested in private poker games - he plays baccarat but wants to try high-stakes private poker. High-limit room manager to brief him discreetly."
+        },
+        {
+          "date": "2025-09-08",
+          "agent": "Hassan A.",
+          "note": "Wife Fatima enjoys spa but requires female-only staff and private suite for treatments. Canyon Ranch can accommodate with advance booking. She is interested in gold facials and luxury skincare."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-09",
+          "restaurant": "CUT by Wolfgang Puck",
+          "party_size": 8,
+          "items": ["Halal Beef Tenderloin x4", "Halal Lamb Rack x2", "Grilled Vegetables", "Hummus (custom prep)", "Sparkling Water (cases)", "Fresh-Squeezed Juices (6)", "Baklava (sourced externally)"],
+          "total": 4800.00,
+          "tip_pct": 20,
+          "notes": "Halal beef sourced 48hrs prior. Full private dining room. No alcohol on table."
+        },
+        {
+          "date": "2025-10-19",
+          "restaurant": "Delmonico Steakhouse",
+          "party_size": 6,
+          "items": ["Halal Prime Ribeye x3", "Halal Rack of Lamb x2", "Lobster Bisque (verified no wine)", "Roasted Potatoes", "Virgin Mojito (6)", "Mango Sorbet"],
+          "total": 3600.00,
+          "tip_pct": 22,
+          "notes": "Private dining. All halal verified. Guest was very satisfied."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-12-07",
+          "check_out": "2025-12-12",
+          "room_type": "Chairman Suite + 2 Venezia Suites",
+          "room_number": "PH-4503 + 4101, 4102",
+          "rate": "Comp (Chairman) + $1200/night x2",
+          "special_requests": ["Prayer mats x4", "Halal minibar", "Arabic coffee service", "Security advance walkthrough", "Private elevator access"],
+          "satisfaction": 5,
+          "issues": []
+        },
+        {
+          "check_in": "2025-10-17",
+          "check_out": "2025-10-21",
+          "room_type": "Chairman Suite + 2 rooms",
+          "room_number": "PH-4504",
+          "rate": "Comp",
+          "special_requests": ["Halal setup", "Prayer mats", "Private arrival"],
+          "satisfaction": 5,
+          "issues": ["Initial minibar had alcohol - corrected before arrival but flag protocol"]
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 200000,
+        "preferred_game": "Baccarat + Private Poker",
+        "preferred_table": "Private high-limit room exclusively",
+        "visits_last_12_months": 3
+      }
+    },
+    {
+      "guest_id": "VIP-007",
+      "name": "Marcus Johnson",
+      "loyalty_tier": "Grazie Diamond",
+      "loyalty_number": "GRZ-3381209",
+      "email": "m.johnson@example.com",
+      "phone": "+1-312-555-0688",
+      "nationality": "American",
+      "language": "English",
+      "date_of_birth": "1980-07-23",
+      "spouse": "Keisha Johnson",
+      "spouse_birthday": "1982-12-05",
+      "arriving_tomorrow": true,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Venetian Suite",
+          "floor_preference": "High floor (35+)",
+          "bed_type": "King (California King if available)",
+          "special_requests": ["Extra-long bed extension boards if needed", "NBA League Pass on all TVs", "Protein shakes and healthy snacks in minibar", "Foam roller and resistance bands", "Private gym access 6-8am"]
+        },
+        "allergies": ["None"],
+        "vip_notes": "Retired NBA legend - recognizable face. Requires discreet handling. Does NOT want fans approaching. Security-conscious. Very loyal guest - comes 6-8x/year."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-18",
+          "agent": "Derek S.",
+          "note": "Mr. Johnson was recognized by fans in the lobby last visit and had an uncomfortable 15-min situation. He was gracious but visibly uncomfortable. Use service elevator and back entrance going forward."
+        },
+        {
+          "date": "2025-11-14",
+          "agent": "Amy W.",
+          "note": "Marcus loves fantasy football - he's very competitive in his league. Great conversation starter. Also a sneaker collector - noticed he was wearing rare Jordan colorways each visit."
+        },
+        {
+          "date": "2025-10-02",
+          "agent": "Derek S.",
+          "note": "Mr. Johnson always requests private gym access before opening. He's very disciplined - 6am workouts, specific about equipment. Also needs his suite stocked with protein shakes (chocolate flavor, Optimum Nutrition brand)."
+        },
+        {
+          "date": "2025-09-05",
+          "agent": "Amy W.",
+          "note": "Wife Keisha loves fine jewelry - she visited the boutiques for 3 hours last time. She appreciated when we arranged a private after-hours showing at the Venetian shops. Do this again."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-17",
+          "restaurant": "CUT by Wolfgang Puck",
+          "party_size": 2,
+          "items": ["Bone-in Ribeye 40oz", "Filet Mignon 12oz (for Keisha)", "Brussels Sprouts", "Truffle Fries", "Caymus Special Selection (bottle)", "Don Julio 1942 (neat, 2 pours)", "Cheesecake"],
+          "total": 1650.00,
+          "tip_pct": 25,
+          "notes": "Date night. Requested secluded booth. Staff handled discretion perfectly."
+        },
+        {
+          "date": "2025-11-13",
+          "restaurant": "Bouchon Bistro",
+          "party_size": 4,
+          "items": ["Eggs Benedict x2", "French Toast", "Protein Bowl (custom)", "Fresh OJ (4)", "Coffee (4)"],
+          "total": 280.00,
+          "tip_pct": 35,
+          "notes": "Breakfast with friends. Very relaxed. Tipped 35%."
+        },
+        {
+          "date": "2025-10-01",
+          "restaurant": "CUT by Wolfgang Puck",
+          "party_size": 6,
+          "items": ["Japanese A5 Wagyu x2", "Tomahawk Ribeye", "Various sides", "Silver Oak Alexander Valley (2 bottles)", "Don Julio 1942 (bottle)", "Assorted desserts"],
+          "total": 4200.00,
+          "tip_pct": 20,
+          "notes": "Post-game watch party dinner with friends. Very jovial atmosphere."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-12-16",
+          "check_out": "2025-12-20",
+          "room_type": "Venetian Suite",
+          "room_number": "3802",
+          "rate": "Comp",
+          "special_requests": ["California King extension", "Protein shakes stocked", "Private gym 6-8am", "NBA League Pass", "Back entrance arrival"],
+          "satisfaction": 4,
+          "issues": ["Fan recognition incident in lobby"]
+        },
+        {
+          "check_in": "2025-11-11",
+          "check_out": "2025-11-15",
+          "room_type": "Venetian Suite",
+          "room_number": "4012",
+          "rate": "Comp",
+          "special_requests": ["Extended bed", "Private gym access", "Healthy snacks"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 30000,
+        "preferred_game": "Blackjack - High Limit",
+        "preferred_table": "Private high-limit room",
+        "visits_last_12_months": 7
+      }
+    },
+    {
+      "guest_id": "VIP-008",
+      "name": "Yuki Nakamura",
+      "loyalty_tier": "Grazie Platinum",
+      "loyalty_number": "GRZ-9934501",
+      "email": "y.nakamura@example.com",
+      "phone": "+81-3-555-0234",
+      "nationality": "Japanese",
+      "language": "Japanese, English",
+      "date_of_birth": "1972-11-30",
+      "spouse": "Hiroshi Nakamura",
+      "spouse_birthday": "1970-04-15",
+      "arriving_tomorrow": false,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Venezia Suite",
+          "floor_preference": "High floor, quiet side",
+          "bed_type": "King",
+          "special_requests": ["Japanese green tea set (matcha)", "Fresh flowers - white lilies", "Heated toilet seat (Toto washlet if available)", "Japanese newspaper delivery (Nikkei)", "Minimal room service interactions"]
+        },
+        "allergies": ["None"],
+        "vip_notes": "Fashion executive at major Japanese luxury brand. Very private. Appreciates minimalism and discretion. Annual Las Vegas trip for industry events."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-11-25",
+          "agent": "Jennifer P.",
+          "note": "Ms. Nakamura is a whisky collector - specifically rare Japanese whiskies. She brought her own Hibiki 35 last visit. Would appreciate if we could source Yamazaki 25 or Karuizawa for her suite."
+        },
+        {
+          "date": "2025-10-18",
+          "agent": "Marcus W.",
+          "note": "Guest is an omakase enthusiast. TAO's regular menu does not impress her - she specifically wants to discuss with the chef for custom omakase-style preparation. Chef Kiki at TAO has done this before."
+        },
+        {
+          "date": "2025-09-12",
+          "agent": "Jennifer P.",
+          "note": "Ms. Nakamura gifted the front desk team a beautiful Japanese art book as a thank you. She is genuinely thoughtful and appreciates small personal touches in return. Remember staff names and personalize."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-11-24",
+          "restaurant": "TAO Asian Bistro",
+          "party_size": 2,
+          "items": ["Custom Omakase (10 courses, Chef Kiki)", "Wagyu Nigiri", "Uni Handroll", "A5 Wagyu Sukiyaki", "Karuizawa 1985 (sourced special)", "Yuzu Sorbet"],
+          "total": 2800.00,
+          "tip_pct": 25,
+          "notes": "Custom omakase arranged with Chef Kiki. Guest described it as 'the best meal in Las Vegas.'"
+        },
+        {
+          "date": "2025-10-17",
+          "restaurant": "Bouchon Bistro",
+          "party_size": 2,
+          "items": ["Croissant (butter)", "Soft Boiled Eggs", "Matcha Latte", "Fresh Orange Juice"],
+          "total": 75.00,
+          "tip_pct": 20,
+          "notes": "Light breakfast. Very quiet, preferred minimal interaction."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-11-22",
+          "check_out": "2025-11-26",
+          "room_type": "Venezia Suite",
+          "room_number": "3305",
+          "rate": 890.00,
+          "special_requests": ["Matcha tea set", "White lilies", "Japanese newspaper", "Rare whisky arranged"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 8000,
+        "preferred_game": "Baccarat (light play)",
+        "preferred_table": null,
+        "visits_last_12_months": 2
+      }
+    },
+    {
+      "guest_id": "VIP-009",
+      "name": "Isabella Conte",
+      "loyalty_tier": "Grazie Diamond",
+      "loyalty_number": "GRZ-6612087",
+      "email": "i.conte@example.com",
+      "phone": "+39-02-555-0891",
+      "nationality": "Italian",
+      "language": "Italian, English, French",
+      "date_of_birth": "1967-08-15",
+      "spouse": "Roberto Conte",
+      "spouse_birthday": "1964-02-28",
+      "arriving_tomorrow": false,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Venetian Suite",
+          "floor_preference": "Any - she cares about design aesthetics",
+          "bed_type": "King",
+          "special_requests": ["Curated cheese and charcuterie on arrival", "Italian mineral water (San Pellegrino and Acqua Panna)", "Excellent espresso machine (Nespresso insufficient - arrange proper espresso)", "Fresh basil plant in suite"]
+        },
+        "allergies": ["None"],
+        "vip_notes": "CEO of Italian luxury fashion house. Annual Las Vegas market trip. Extremely discerning palate. Connected to fine wine community - her recommendations carry weight in the trade."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-02",
+          "agent": "Maria G.",
+          "note": "Ms. Conte is a serious oenophile - her personal cellar has 3,000+ bottles. She was unimpressed with last year's wine list at Delmonico. Request wine director to meet her personally and present the reserve list."
+        },
+        {
+          "date": "2025-11-08",
+          "agent": "Carlos R.",
+          "note": "Guest specifically requested authentic Italian coffee. She brought her own Lavazza beans last visit and was apologetic about it. Source proper Italian espresso machine for her suite - she will notice."
+        },
+        {
+          "date": "2025-10-03",
+          "agent": "Maria G.",
+          "note": "Ms. Conte plays craps exclusively - very superstitious about her 'lucky' table. She always plays Table 12. Comp her chips as she builds momentum, it's her ritual."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-01",
+          "restaurant": "Delmonico Steakhouse",
+          "party_size": 4,
+          "items": ["Burrata Appetizer", "Veal Osso Buco (custom prep)", "Dover Sole", "Barolo Giacomo Conterno 2016 (bottle)", "Sassicaia 2017 (bottle)", "Affogato"],
+          "total": 4100.00,
+          "tip_pct": 22,
+          "notes": "Brought her own Barolo - hotel policy override approved by GM. Sommelier engaged in detailed wine discussion."
+        },
+        {
+          "date": "2025-10-02",
+          "restaurant": "Enoteca San Marco",
+          "party_size": 2,
+          "items": ["Antipasto Misto", "Tagliatelle al Ragu", "Branzino al Sale", "Amarone della Valpolicella (bottle)", "Tiramisu"],
+          "total": 890.00,
+          "tip_pct": 20,
+          "notes": "Critiqued the pasta (expects fresh, not dried). Feedback shared with kitchen."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-11-29",
+          "check_out": "2025-12-04",
+          "room_type": "Venetian Suite",
+          "room_number": "3701",
+          "rate": "Comp",
+          "special_requests": ["Italian charcuterie board", "San Pellegrino cases", "Espresso machine upgrade", "Wine director intro meeting"],
+          "satisfaction": 4,
+          "issues": ["Espresso machine still Nespresso - very disappointed. Must fix."]
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 25000,
+        "preferred_game": "Craps",
+        "preferred_table": "Table 12 exclusively",
+        "visits_last_12_months": 3
+      }
+    },
+    {
+      "guest_id": "VIP-010",
+      "name": "Raj Patel",
+      "loyalty_tier": "Grazie Platinum",
+      "loyalty_number": "GRZ-4455612",
+      "email": "r.patel@example.com",
+      "phone": "+91-22-555-0334",
+      "nationality": "Indian",
+      "language": "Hindi, English, Gujarati",
+      "date_of_birth": "1973-01-17",
+      "spouse": "Priya Patel",
+      "spouse_birthday": "1976-09-22",
+      "arriving_tomorrow": false,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Venetian Suite x2 (for family)",
+          "floor_preference": "Same floor, adjacent suites",
+          "bed_type": "King + 2 Queens (for children)",
+          "special_requests": ["Vegetarian welcome basket", "Cricket streaming (Hotstar)", "Indian snacks (request list provided annually)", "Early dinner reservation (family with young children)"]
+        },
+        "allergies": ["None - but strict vegetarian (no meat, no fish, no eggs)"],
+        "vip_notes": "Indian tech billionaire. Travels with family (wife, 2 kids age 8 & 11). Very family-oriented. Books 2 suites. Annual family trip."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-11-30",
+          "agent": "Priya S.",
+          "note": "Mr. Patel's family is strictly vegetarian - this is religious, not just preference. Children need kid-friendly vegetarian options. Grand Lux and Bouchon do this well. Confirm with TAO in advance."
+        },
+        {
+          "date": "2025-10-25",
+          "agent": "Priya S.",
+          "note": "The Patel children love the gondola rides - they asked to go twice last visit. Also loved the magician at TAO Nightclub (family matinee). Book these experiences preemptively."
+        },
+        {
+          "date": "2025-09-10",
+          "agent": "Kevin M.",
+          "note": "Mr. Patel is a cricket fanatic. Was very happy when we set up a cricket live stream on arrival day (India vs Australia Test). This cost us nothing and created enormous goodwill."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-11-29",
+          "restaurant": "Grand Lux Cafe",
+          "party_size": 4,
+          "items": ["Vegetarian Spring Rolls", "Cheese Pizza (for kids)", "Pasta Primavera (veg)", "Mushroom Risotto", "Mango Lassi (2)", "Apple Juice (2)", "Organic Napa Chardonnay (1 glass for Priya)", "Ice Cream Sundae (2)"],
+          "total": 320.00,
+          "tip_pct": 20,
+          "notes": "Family dinner. Kids were well-behaved. Early 6pm seating."
+        },
+        {
+          "date": "2025-10-24",
+          "restaurant": "Bouchon Bistro",
+          "party_size": 4,
+          "items": ["Veggie Eggs Benedict (custom)", "French Toast (kids)", "Fresh Berries", "Chai Tea (custom prep)", "Coffee"],
+          "total": 185.00,
+          "tip_pct": 22,
+          "notes": "Family breakfast. Bouchon team accommodated vegetarian modifications excellently."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-11-28",
+          "check_out": "2025-12-02",
+          "room_type": "Venetian Suite x2",
+          "room_number": "2801, 2802",
+          "rate": "$890/night x2",
+          "special_requests": ["Vegetarian basket", "Cricket streaming", "Adjacent suites", "Gondola booking", "Early dinner reservation"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 5000,
+        "preferred_game": "Blackjack (light, social)",
+        "preferred_table": null,
+        "visits_last_12_months": 2
+      }
+    },
+    {
+      "guest_id": "VIP-011",
+      "name": "Bobby Sullivan",
+      "loyalty_tier": "Grazie Diamond Elite",
+      "loyalty_number": "GRZ-0000112",
+      "email": "b.sullivan@example.com",
+      "phone": "+1-702-555-0045",
+      "nationality": "American",
+      "language": "English",
+      "date_of_birth": "1952-03-08",
+      "spouse": "Diane Sullivan",
+      "spouse_birthday": "1955-07-14",
+      "arriving_tomorrow": true,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Venetian Suite",
+          "floor_preference": "No preference - been coming 30 years, any room feels like home",
+          "bed_type": "King",
+          "special_requests": ["Johnnie Walker Blue Label bottle on arrival", "Jack Daniel's for wife", "Recliner chair if available", "Big Band/Sinatra playlist requested (previously done)", "Newspaper: Las Vegas Review-Journal + Wall Street Journal"]
+        },
+        "allergies": ["None"],
+        "vip_notes": "30-year loyal guest. One of the original Venetian high rollers from opening year 1999. Extremely sentimental about the property. Known every General Manager personally. Treat like royalty - he IS Las Vegas history."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-22",
+          "agent": "Maria G.",
+          "note": "Bobby asked about Frank - his favorite dealer from the 90s who retired. He still talks about him every visit. Consider having a card or photo from 'old Vegas' as a gift - he will be deeply moved."
+        },
+        {
+          "date": "2025-11-18",
+          "agent": "Robert L.",
+          "note": "Mr. Sullivan's 74th birthday is March 8. He never mentions it but has been coming every year around his birthday for 30 years. Surprise him with a cake - he tears up every time but loves it."
+        },
+        {
+          "date": "2025-10-10",
+          "agent": "Maria G.",
+          "note": "Bobby still plays craps with the same ritual he's had since 1999 - always starts at Table 7, always brings his own dice (he claims they're lucky). Staff should remember this and not interfere with his ritual."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-21",
+          "restaurant": "Delmonico Steakhouse",
+          "party_size": 2,
+          "items": ["Shrimp Cocktail", "New York Strip 14oz", "Chicken Piccata (for Diane)", "Baked Potato", "Creamed Spinach", "Cabernet Sauvignon - Silver Oak (bottle)", "Johnnie Walker Blue (2 pours)", "Creme Brulee"],
+          "total": 520.00,
+          "tip_pct": 25,
+          "notes": "Same order as every visit for 15 years. Diane always gets the chicken. Staff knows their order by heart."
+        },
+        {
+          "date": "2025-11-17",
+          "restaurant": "Bouchon Bistro",
+          "party_size": 2,
+          "items": ["Eggs and Bacon (Bobby)", "Oatmeal (Diane)", "Coffee (2)", "Toast with marmalade"],
+          "total": 65.00,
+          "tip_pct": 30,
+          "notes": "Morning ritual breakfast. Has done this every visit since Bouchon opened."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-12-19",
+          "check_out": "2025-12-24",
+          "room_type": "Venetian Suite",
+          "room_number": "3201",
+          "rate": "Comp",
+          "special_requests": ["JW Blue on arrival", "Jack Daniel's for Diane", "Recliner chair", "Newspapers", "Sinatra playlist"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 40000,
+        "preferred_game": "Craps",
+        "preferred_table": "Table 7 exclusively - his ritual",
+        "visits_last_12_months": 6
+      }
+    },
+    {
+      "guest_id": "VIP-012",
+      "name": "Mei-Ling Zhao",
+      "loyalty_tier": "Grazie Diamond",
+      "loyalty_number": "GRZ-5509871",
+      "email": "m.zhao@example.com",
+      "phone": "+86-21-555-0678",
+      "nationality": "Chinese",
+      "language": "Mandarin, Cantonese, English",
+      "date_of_birth": "1965-10-12",
+      "spouse": "Wei Zhao",
+      "spouse_birthday": "1962-06-08",
+      "arriving_tomorrow": false,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Venetian Suite",
+          "floor_preference": "Floor with lucky number 8 (e.g., 28, 38)",
+          "bed_type": "King",
+          "special_requests": ["Lucky room number with 8 if possible", "No room #4 (unlucky)", "Chinese tea set", "Congee option for breakfast", "Mandarin-speaking butler preferred"]
+        },
+        "allergies": ["None"],
+        "vip_notes": "Shanghai real estate magnate. Cross-referenced VIP from Macau's Crown Casino. Brings business partners frequently - group of 8-12. Lunar New Year visit is major annual tradition."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-08",
+          "agent": "Kevin M.",
+          "note": "Ms. Zhao plans her annual Lunar New Year visit - group of 12 this year. She books an entire floor section. Red envelopes (hongbao) gifted to all staff who serve her - very generous host."
+        },
+        {
+          "date": "2025-11-20",
+          "agent": "Sophie L.",
+          "note": "Guest is highly superstitious about room numbers - the 8 is essential. The number 4 is absolutely forbidden (sounds like death in Mandarin). Also note: never gift clocks - considered bad luck."
+        },
+        {
+          "date": "2025-10-15",
+          "agent": "Kevin M.",
+          "note": "Ms. Zhao specifically requested a Mandarin-speaking front desk agent. She speaks English well but prefers Mandarin for detailed requests. Assign Michelle Chen from front desk for her visits."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-07",
+          "restaurant": "TAO Asian Bistro",
+          "party_size": 10,
+          "items": ["Peking Duck (3 whole)", "Dim Sum Platter x4", "Wok-Lobster x2", "Drunken Chicken", "Jasmine Tea (10)", "Moutai Baijiu (bottle)", "Tsingtao Beer (12)", "Longevity Peach Buns"],
+          "total": 4200.00,
+          "tip_pct": 18,
+          "notes": "Large group dinner for Lunar New Year planning meeting. Moutai brought from China - hotel approved corkage."
+        },
+        {
+          "date": "2025-10-14",
+          "restaurant": "Grand Lux Cafe",
+          "party_size": 4,
+          "items": ["Dim Sum style breakfast", "Congee (custom prep)", "Chinese Tea (4)", "Fresh Fruit"],
+          "total": 180.00,
+          "tip_pct": 20,
+          "notes": "Breakfast meeting with partners."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-12-05",
+          "check_out": "2025-12-10",
+          "room_type": "Venetian Suite + 3 additional suites",
+          "room_number": "3808 (lucky), 3801-3803",
+          "rate": "Comp (main) + comp (business partners)",
+          "special_requests": ["Floor 38 - lucky 8", "Mandarin butler", "Chinese tea sets x4", "Group dinner reservation TAO"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 90000,
+        "preferred_game": "Baccarat - main table",
+        "preferred_table": "Premium baccarat room, prefers group play",
+        "visits_last_12_months": 4
+      }
+    },
+    {
+      "guest_id": "VIP-013",
+      "name": "Carlos Vega",
+      "loyalty_tier": "Grazie Platinum",
+      "loyalty_number": "GRZ-8823451",
+      "email": "c.vega@example.com",
+      "phone": "+52-55-555-0912",
+      "nationality": "Mexican",
+      "language": "Spanish, English",
+      "date_of_birth": "1983-05-18",
+      "spouse": "Sofia Vega",
+      "spouse_birthday": "1987-11-03",
+      "arriving_tomorrow": false,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Palazzo Suite",
+          "floor_preference": "High floor with Strip view",
+          "bed_type": "King",
+          "special_requests": ["Premium tequila selection (Clase Azul, Don Julio 1942, Casa Dragones)", "Fresh limes always", "DJ equipment connectivity (3.5mm/RCA)", "Private pool or cabana if available"]
+        },
+        "allergies": ["None"],
+        "vip_notes": "Mexican TV and music producer. Travels with entourage of 5-6. Very social and celebratory. High energy. Nightclub connections important."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-14",
+          "agent": "Carlos R.",
+          "note": "Mr. Vega is a tequila aficionado and collector. Has his own tequila brand in development. Always wants to discuss agave sourcing and distillation. Pair him with our bar director - will create memorable experience."
+        },
+        {
+          "date": "2025-11-05",
+          "agent": "Sophie L.",
+          "note": "Mr. Vega's birthday is May 18 - he usually visits around this time. Big birthday celebrations with large group. Private event in nightclub is his preferred celebration format."
+        },
+        {
+          "date": "2025-10-01",
+          "agent": "Carlos R.",
+          "note": "Mr. Vega knows all the TAO Group contacts personally. He should be offered the celebrity entrance and VIP table at Marquee Nightclub - he will share on social media to his 8M followers."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-13",
+          "restaurant": "TAO Asian Bistro",
+          "party_size": 8,
+          "items": ["Crispy Rice Tuna x3", "Wagyu Sliders x2", "Lobster Pad Thai x2", "Casa Dragones Joven (bottle)", "Don Julio 1942 (2 bottles)", "Clase Azul Reposado (bottle)", "Churro Ice Cream"],
+          "total": 6800.00,
+          "tip_pct": 20,
+          "notes": "Pre-nightclub dinner. Very festive. Group was extremely loud and fun. Celebrity energy."
+        },
+        {
+          "date": "2025-10-30",
+          "restaurant": "Delmonico Steakhouse",
+          "party_size": 6,
+          "items": ["Porterhouse for Two x2", "Lobster (2)", "Tequila Flight - rare selection", "Don Julio 1942 (2)", "Chocolate Fondue"],
+          "total": 3200.00,
+          "tip_pct": 22,
+          "notes": "Celebrated deal close. Asked about private tequila tasting event for next visit."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-12-11",
+          "check_out": "2025-12-15",
+          "room_type": "Palazzo Suite",
+          "room_number": "2512",
+          "rate": "Comp",
+          "special_requests": ["Tequila selection", "Limes and salt", "DJ connectivity", "Marquee VIP table booking"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 20000,
+        "preferred_game": "Blackjack (social)",
+        "preferred_table": "High-limit with friends",
+        "visits_last_12_months": 4
+      }
+    },
+    {
+      "guest_id": "VIP-014",
+      "name": "Victoria Harrington",
+      "loyalty_tier": "Grazie Diamond",
+      "loyalty_number": "GRZ-3312776",
+      "email": "v.harrington@example.com",
+      "phone": "+44-20-555-0234",
+      "nationality": "British",
+      "language": "English",
+      "date_of_birth": "1969-04-22",
+      "spouse": null,
+      "spouse_birthday": null,
+      "arriving_tomorrow": true,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Venezia Suite",
+          "floor_preference": "High floor, quiet",
+          "bed_type": "King",
+          "special_requests": ["Proper Scotch whisky selection (Macallan, Dalmore, Glenfarclas)", "Earl Grey tea with proper milk (not creamer)", "Financial Times and The Economist delivered", "Quiet floor, no adjacent events", "Temperature set to 68F upon arrival"]
+        },
+        "allergies": ["None"],
+        "vip_notes": "London hedge fund partner. Quarterly Las Vegas trips for 'work and relaxation.' Extremely analytical, values substance over showiness. Do not over-service - respects competence over fawning."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-16",
+          "agent": "Patrick H.",
+          "note": "Ms. Harrington is a serious Scotch whisky connoisseur. Her personal collection rivals some distilleries. She was impressed when our bar director arranged a flight of rare Dalmore Constellation releases. Repeat this."
+        },
+        {
+          "date": "2025-11-12",
+          "agent": "Amy W.",
+          "note": "Guest plays high-stakes poker with extreme discipline. She is a trained mathematician - do not try to explain odds to her. She has noted being unimpressed by dealers who talk too much. Assign silent, professional dealers."
+        },
+        {
+          "date": "2025-10-08",
+          "agent": "Patrick H.",
+          "note": "Ms. Harrington is an avid golfer - scratch handicap. She mentioned wanting to play Shadow Creek but couldn't arrange at the time. Proactively book this for her next visit - it will be a major differentiator."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-15",
+          "restaurant": "CUT by Wolfgang Puck",
+          "party_size": 1,
+          "items": ["Dry-Aged Bone-In Ribeye", "Creamed Spinach", "Dalmore Constellation 1991 (3 pours)", "Dark Chocolate Tart"],
+          "total": 1450.00,
+          "tip_pct": 20,
+          "notes": "Solo dinner. Requested financial newspaper while dining. Excellent Scotch pairing praised."
+        },
+        {
+          "date": "2025-11-11",
+          "restaurant": "Bouchon Bistro",
+          "party_size": 1,
+          "items": ["Full English Breakfast (custom)", "Earl Grey tea (pot)", "The Economist (provided)"],
+          "total": 85.00,
+          "tip_pct": 22,
+          "notes": "Solo breakfast. Very efficient, in and out in 30 minutes. Appreciated prompt service."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-12-13",
+          "check_out": "2025-12-18",
+          "room_type": "Venezia Suite",
+          "room_number": "3602",
+          "rate": "Comp",
+          "special_requests": ["Scotch selection", "Earl Grey", "FT + Economist", "68F temperature", "Quiet floor"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 60000,
+        "preferred_game": "Poker - High Stakes",
+        "preferred_table": "Private room, serious players only",
+        "visits_last_12_months": 4
+      }
+    },
+    {
+      "guest_id": "VIP-015",
+      "name": "Dmitri Sorokin",
+      "loyalty_tier": "Grazie Gold",
+      "loyalty_number": "GRZ-9920134",
+      "email": "d.sorokin@example.com",
+      "phone": "+380-44-555-0567",
+      "nationality": "Ukrainian",
+      "language": "Ukrainian, Russian, English",
+      "date_of_birth": "1993-08-30",
+      "spouse": null,
+      "spouse_birthday": null,
+      "arriving_tomorrow": false,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Palazzo Suite",
+          "floor_preference": "High floor",
+          "bed_type": "King",
+          "special_requests": ["Nightclub VIP table pre-booked", "Premium bottle service budget ($5k minimum)", "Energy drinks stocked", "Late checkout (2pm)", "Blackout curtains (sleeps late)"]
+        },
+        "allergies": ["None"],
+        "vip_notes": "26-year-old tech founder, crypto wealth. Rapid loyalty tier climber - Gold now but Diamond trajectory. Attracts young affluent group. High nightlife spend."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-20",
+          "agent": "Sophie L.",
+          "note": "Mr. Sorokin is a cryptocurrency entrepreneur - had a major liquidity event this year. His spending has increased 300% in the last 6 months. Fast-track him to Platinum review."
+        },
+        {
+          "date": "2025-11-22",
+          "agent": "Marcus W.",
+          "note": "Guest throws large nightclub parties. Spent $28,000 at Marquee on last visit (bottle service). He always pre-orders 12+ bottles of Dom Perignon and Ace of Spades. Nightclub team loves him."
+        },
+        {
+          "date": "2025-10-18",
+          "agent": "Sophie L.",
+          "note": "Mr. Sorokin mentioned wanting to host a private event - poker tournament with friends (est. 20 people). Coordinate with private gaming room and catering. This could be a major revenue event."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-19",
+          "restaurant": "TAO Asian Bistro",
+          "party_size": 10,
+          "items": ["Sushi Platter x4", "Wagyu Sliders x5", "Crispy Rice x3", "Armand de Brignac Brut (3 bottles)", "Grey Goose (3 bottles)", "Various Red Bulls"],
+          "total": 8900.00,
+          "tip_pct": 18,
+          "notes": "Pre-party dinner. Very high energy group. Ages 22-30. Big spenders."
+        },
+        {
+          "date": "2025-11-21",
+          "restaurant": "Grand Lux Cafe",
+          "party_size": 1,
+          "items": ["Burger and Fries", "Chocolate Milkshake", "Coffee x3"],
+          "total": 55.00,
+          "tip_pct": 40,
+          "notes": "Hungover solo lunch at 2pm. Very casual. Tipped 40% randomly."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-12-18",
+          "check_out": "2025-12-21",
+          "room_type": "Palazzo Suite",
+          "room_number": "2601",
+          "rate": 650.00,
+          "special_requests": ["Marquee VIP table", "Blackout curtains", "Energy drinks", "Late checkout"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 35000,
+        "preferred_game": "Blackjack - high energy tables",
+        "preferred_table": "Social tables, doesn't mind audience",
+        "visits_last_12_months": 5
+      }
+    },
+    {
+      "guest_id": "VIP-016",
+      "name": "Amara Osei",
+      "loyalty_tier": "Grazie Platinum",
+      "loyalty_number": "GRZ-7734219",
+      "email": "a.osei@example.com",
+      "phone": "+234-1-555-0445",
+      "nationality": "Nigerian",
+      "language": "English, Yoruba",
+      "date_of_birth": "1988-12-15",
+      "spouse": null,
+      "spouse_birthday": null,
+      "arriving_tomorrow": true,
+      "profile": {
+        "room_preferences": {
+          "preferred_suite": "Palazzo Suite",
+          "floor_preference": "High floor",
+          "bed_type": "King",
+          "special_requests": ["Ace of Spades Gold bottle on arrival", "Afrobeats playlist ready (Bluetooth speaker)", "Entourage rooms (3-4 adjacent rooms)", "VIP nightclub access pre-arranged", "Private photographer option"]
+        },
+        "allergies": ["None"],
+        "vip_notes": "Nigerian music mogul - 15M+ social media following. CEO of major Afrobeats label. Las Vegas visits generate huge social media coverage. Marketing team coordinates with his PR for content opportunities."
+      },
+      "gsa_notes": [
+        {
+          "date": "2025-12-22",
+          "agent": "Derek S.",
+          "note": "Mr. Osei's last Instagram post tagging The Venetian got 890K likes and 45K comments. Marketing estimates $2M equivalent advertising value. His content team travels with him - give them full access."
+        },
+        {
+          "date": "2025-11-15",
+          "agent": "Sophie L.",
+          "note": "Birthday December 15 - he usually visits around birthday. Surprise birthday setup with Ace of Spades bottles and custom Afrobeats cake is expected now. His team actually coordinates this with us in advance."
+        },
+        {
+          "date": "2025-10-20",
+          "agent": "Marcus W.",
+          "note": "Mr. Osei has requested a meet-and-greet type event with fans at TAO for his birthday. Working with TAO management on a mini-performance setup. Could be a spectacular viral moment."
+        }
+      ],
+      "fnb_history": [
+        {
+          "date": "2025-12-21",
+          "restaurant": "TAO Asian Bistro",
+          "party_size": 12,
+          "items": ["Premium Sushi Selection", "Wagyu Omakase x4", "King Crab Legs x3", "Ace of Spades Gold (4 bottles)", "D'Usse XO (2 bottles)", "Moët Imperial (6 bottles)", "Birthday Cake"],
+          "total": 18500.00,
+          "tip_pct": 20,
+          "notes": "Birthday dinner/party. TAO cleared VIP section. Event was filmed for social content. Organic reach estimated 5M+ impressions."
+        },
+        {
+          "date": "2025-10-19",
+          "restaurant": "CUT by Wolfgang Puck",
+          "party_size": 6,
+          "items": ["Japanese A5 Wagyu x4", "Lobster", "Various sides", "Ace of Spades Brut (2 bottles)", "Hennessy Paradis (3 pours)"],
+          "total": 6800.00,
+          "tip_pct": 22,
+          "notes": "VIP dinner. Music industry contacts. Filmed for documentary."
+        }
+      ],
+      "stay_history": [
+        {
+          "check_in": "2025-12-20",
+          "check_out": "2025-12-24",
+          "room_type": "Palazzo Suite + 4 standard suites",
+          "room_number": "2701 + 2702-2705",
+          "rate": "Comp (main) + $550/night x4",
+          "special_requests": ["Ace of Spades on arrival", "Afrobeats speaker setup", "VIP nightclub", "Content team access", "Private photographer"],
+          "satisfaction": 5,
+          "issues": []
+        }
+      ],
+      "gaming_summary": {
+        "avg_trip_value": 15000,
+        "preferred_game": "Roulette (social, performative)",
+        "preferred_table": "High-energy, social tables",
+        "visits_last_12_months": 3
+      }
+    }
+  ]
+}

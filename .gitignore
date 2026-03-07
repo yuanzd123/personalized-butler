@@ -19,6 +19,12 @@ __pycache__/
 *~
 .DS_Store
 
+# Streamlit secrets (keep API key out of git)
+.streamlit/secrets.toml
+
+# Generated insight cards
+insight_cards/
+
 # Build outputs
 dist/
 build/

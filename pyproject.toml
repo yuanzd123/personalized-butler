@@ -1,0 +1,9 @@
+[project]
+name = "personalized-butler"
+version = "0.1.0"
+description = "Hyper-Personalized Butler - VIP Guest Insight Cards powered by Google ADK"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk",
+    "python-dotenv",
+]
