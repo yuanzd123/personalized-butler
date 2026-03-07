@@ -7,7 +7,7 @@ from . import tools
 # --- Sub-Agent: Profile Agent ---
 profile_agent = Agent(
     name="profile_agent",
-    model="gemini-3-flash-preview",
+    model="gemini-3.1-flash-lite-preview",
     description="Analyzes guest profiles, preferences, and GSA notes to build a comprehensive understanding of the guest.",
     instruction="""You are the Profile Analyst for a luxury hotel/casino (The Venetian Las Vegas).
 
@@ -30,7 +30,7 @@ Be thorough but concise. Flag anything time-sensitive (upcoming birthdays, anniv
 # --- Sub-Agent: F&B Agent ---
 fnb_agent = Agent(
     name="fnb_agent",
-    model="gemini-3-flash-preview",
+    model="gemini-3.1-flash-lite-preview",
     description="Analyzes guest dining history to identify food preferences, favorite restaurants, spending patterns, and F&B upsell opportunities.",
     instruction="""You are the F&B (Food & Beverage) Analyst for The Venetian Las Vegas.
 
@@ -55,7 +55,7 @@ Provide specific, actionable F&B insights. Reference actual menu items and price
 # --- Sub-Agent: Insight Card Agent ---
 insight_agent = Agent(
     name="insight_agent",
-    model="gemini-3-flash-preview",
+    model="gemini-3.1-flash-lite-preview",
     description="Generates structured Insight Cards with actionable recommendations and upsell strategies for VIP guest arrivals.",
     instruction="""You are the Insight Card Generator for The Venetian Las Vegas VIP Host team.
 
@@ -101,7 +101,7 @@ The Host should be able to glance at this card and immediately know how to make 
 # --- Root Agent: Butler ---
 root_agent = Agent(
     name="butler",
-    model="gemini-3-flash-preview",
+    model="gemini-3.1-flash-lite-preview",
     description="The Hyper-Personalized Butler - coordinates guest intelligence gathering and generates actionable VIP briefings.",
     instruction="""You are the Hyper-Personalized Butler, the master coordinator for VIP guest services at The Venetian Las Vegas.
 

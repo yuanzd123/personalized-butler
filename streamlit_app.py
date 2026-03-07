@@ -237,7 +237,7 @@ def run_pipeline(guest: dict) -> str | None:
         except Exception as e:
             status.update(label="❌ Pipeline Error", state="error", expanded=True)
             st.error(f"**Error:** {e}")
-            if "gemini-3-flash-preview" in str(e).lower() or "model" in str(e).lower():
+            if "gemini-3.1-flash-lite-preview" in str(e).lower() or "model" in str(e).lower():
                 st.warning("Model not found. Try changing to `gemini-2.0-flash` in `agent.py`.")
             return None
 
