@@ -132,7 +132,7 @@ hr.gold { border: none; border-top: 1px solid #C9A96E33; margin: 12px 0; }
 [data-testid="stMetricValue"] { color: #C9A96E !important; }
 
 /* Hide default chrome */
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -331,8 +331,9 @@ def render_arrival_manifest(guests: list[dict]):
 def main():
     guests = load_guests()
 
-    # Check API key
-    if not os.getenv("GOOGLE_API_KEY") or os.getenv("GOOGLE_API_KEY") == "your_google_api_key_here":
+    # Check API key (skip in demo mode)
+    DEMO_MODE = True
+    if not DEMO_MODE and (not os.getenv("GOOGLE_API_KEY") or os.getenv("GOOGLE_API_KEY") == "your_google_api_key_here"):
         st.error("**GOOGLE_API_KEY not configured.** Add it to `.env` (local) or Streamlit secrets (deployed).")
         st.code('GOOGLE_API_KEY = "your_key_here"', language="toml")
         st.markdown("Get your key at [aistudio.google.com](https://aistudio.google.com)")
